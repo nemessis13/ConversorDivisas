@@ -1,9 +1,9 @@
 function convertir(){
-  var valor=parseFloat(document.getElementById("Cantidad").value);
+  let valor=parseFloat(document.getElementById("Cantidad").value);
   document.getElementById("valor").innerHTML=valor;
 
-  var de = document.getElementById("de").value;
-  var a = document.getElementById("a").value;
+  let de = document.getElementById("de").value;
+  let a = document.getElementById("a").value;
   
   var dolar = 210.00;
   var euro = 0.82;
